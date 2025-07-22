@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.zest-accessories.com
+
+# Sitemaps
+Sitemap: https://www.zest-accessories.com/sitemap.xml
