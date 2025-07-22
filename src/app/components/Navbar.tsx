@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { lazy, useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -39,9 +39,10 @@ export default function Navbar() {
           <Image
             src="/ZestLogo.png"
             alt="Zest Accessories Logo"
-            width={48}
-            height={48}
+            width={100}
+            height={100}
             priority
+            className="w-[48px]"
           />
           <span className="text-xl font-bold text-gray-800 pl-2">
             Zest Accessories
