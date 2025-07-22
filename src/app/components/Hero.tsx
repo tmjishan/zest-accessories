@@ -18,7 +18,7 @@ export default function Hero() {
             href="/get-quote"
             className="inline-block bg-[#a0522d] hover:bg-[#8b4513] text-white font-semibold px-6 py-3 rounded transition duration-300"
           >
-            Let's Talk
+            Let&#39;s Talk
           </Link>
         </div>
 
