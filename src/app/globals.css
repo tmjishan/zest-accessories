@@ -3,7 +3,7 @@
 :root {
   --mainColor: #ffffff;
   --background: #e5e5e5;
-  --foreground: #2e2e2e;
+  --foreground: #0000;
   --btnbg: #a0522d;
   --btnhover: #843c1c;
 }
@@ -12,7 +12,7 @@
   :root {
     --mainColor: #ffffff;
     --background: #e5e5e5;
-    --foreground: #2e2e2e;
+    --foreground: #0000;
     --btnbg: #a0522d;
     --btnhover: #843c1c;
   }

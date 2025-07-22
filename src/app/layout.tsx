@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased md:px-12">{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
