@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     title: "Custom Packaging for Apparel & Accessories | ZEST",
     description:
       "Boost your brand presence with ZEST's premium packaging designed for garments, buying houses, and fashion products.",
-    url: "https://zest-accessories.com", // ✅ Your real live domain
+    url: "https://zestaccessories.netlify.app/", // ✅ Your real live domain
     siteName: "ZEST Accessories",
     images: [
       {
-        url: "https://zest-accessories.com/og-image.png", // ✅ Remove double slash
+        url: "https://zestaccessories.netlify.app/og-image.png", // ✅ Remove double slash
         width: 1200,
         height: 630,
         alt: "Packaging Boxes for Garments - ZEST Accessories",

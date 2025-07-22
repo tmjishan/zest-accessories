@@ -33,7 +33,7 @@ export default function Navbar() {
         isScrolled ? "bg-white/80 shadow-md backdrop-blur" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      <div className="max-w-7xl flex items-center justify-between px-4 py-3">
         {/* ✅ Left: Logo with Image + Text */}
         <Link href="/" className="flex items-center">
           <Image

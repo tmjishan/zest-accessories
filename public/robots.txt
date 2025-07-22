@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.zest-accessories.com
+Host: https://zestaccessories.netlify.app/
 
 # Sitemaps
-Sitemap: https://www.zest-accessories.com/sitemap.xml
+Sitemap: https://zestaccessories.netlify.app/sitemap.xml

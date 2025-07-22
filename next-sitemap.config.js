@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://www.zest-accessories.com",
+  siteUrl: "https://zestaccessories.netlify.app/",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "weekly",
