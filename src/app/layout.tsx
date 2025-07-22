@@ -9,10 +9,11 @@ export const metadata: Metadata = {
     "Discover high-quality, customizable packaging solutions tailored for garments, apparel, and accessories. Enhance your brand with ZEST's reliable and stylish packaging options.",
 
   openGraph: {
-    title: "Custom Packaging for Apparel & Accessories | ZEST",
+    title: "Custom Carton & Packaging Solutions for Apparel & Accessories",
     description:
-      "Boost your brand presence with ZEST's premium packaging designed for garments, buying houses, and fashion products.",
+      "Get high-quality packaging, cartons, corrugated boxes, and gift wrapping paper. We serve garments, food, and e-commerce industries. Custom sizes available!",
     url: "https://zestaccessories.netlify.app/", // ✅ Your real live domain
+
     siteName: "ZEST Accessories",
     images: [
       {
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       },
     ],
     locale: "bn_BD",
+    alternateLocale: "en-US",
     type: "website",
   },
 };
