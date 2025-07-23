@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Button from "./Button";
+
 const Data = [
   {
-    icon: "/package-svgrepo-com.svg",
+    icon: "/box-svgrepo-com.svg",
     title: "Garment-Grade Customization",
     description: "Perfect fit for shirts, pants, accessories & bulk garments",
   },
@@ -20,7 +22,7 @@ const Data = [
 
 export default function WhyUs() {
   return (
-    <div className="w-full md:max-w-7xl mx-auto px-6 md:px-10 py-8">
+    <div className="w-full md:max-w-7xl mx-auto px-6 md:px-10 py-8 text-center">
       <div className="flex flex-col md:flex-row gap-8 md:gap-20 justify-center items-stretch">
         {Data.map((item, index) => (
           <div
@@ -28,9 +30,14 @@ export default function WhyUs() {
             className="bg-white p-6 rounded-lg shadow-md flex-1 w-full max-w-sm md:max-w-none transform transition-transform duration-300 hover:scale-105
                        flex flex-col justify-between items-center text-center"
           >
-            <div className="mb-4 flex justify-center">
-              <Image src={item.icon} alt={item.title} width={48} height={48} />
-            </div>
+            <Image
+              src={item.icon}
+              alt={item.title}
+              width={48}
+              height={48}
+              className="mb-4"
+            />
+
             <h3 className="font-bold tracking-wide text-xl text-gray-900 mb-2">
               {item.title}
             </h3>
@@ -39,6 +46,14 @@ export default function WhyUs() {
             </p>
           </div>
         ))}
+      </div>
+      <div className="py-20">
+        <Button
+          btnText="See More Aligns"
+          href="/"
+          height="py-[10px]"
+          width="px-[15px]"
+        />
       </div>
     </div>
   );
