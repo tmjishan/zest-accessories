@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { Eczar } from "next/font/google";
+
+const eczar = Eczar({
+  subsets: ["latin", "devanagari"], // devnagari for full character support
+  weight: ["400", "500", "700"],
+  variable: "--font-eczar",
+});
+
 export const metadata: Metadata = {
   title:
     "Premium Packaging Solutions for Apparel & Accessories | ZEST ACCESSORIES",
@@ -36,7 +44,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className={`${eczar.variable} " antialiased" `}>{children}</body>
     </html>
   );
 }

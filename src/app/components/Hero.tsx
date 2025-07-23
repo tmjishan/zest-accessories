@@ -2,9 +2,12 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen text-black flex justify-center items-center px-4 sm:px-6 lg:px-8 pt-25">
+    <section
+      aria-label="Hero Section"
+      className="min-h-screen text-black flex justify-center items-center px-4 sm:px-6 lg:px-8 pt-25"
+    >
       <div className="max-w-3xl text-center space-y-6">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-5xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-widest">
           Smart Packaging for Garments & Beyond
         </h1>
         <p className="text-lg sm:text-xl text-gray-700">

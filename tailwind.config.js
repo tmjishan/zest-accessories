@@ -9,9 +9,10 @@ export default {
         btnbg: "var(--btnbg)",
         btnhover: "var(--btnhover)",
       },
+      fontFamily: {
+        eczar: ["var(--font-eczar)"],
+      },
     },
   },
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // ensure you include all your files here
-  ],
+  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
 };
