@@ -6,7 +6,7 @@ export default function Hero() {
       aria-label="Hero Section"
       className="min-h-screen flex items-center justify-center text-gray-900 px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-3xl text-center space-y-6 md:space-y-8">
+      <div className="max-w-3xl text-center space-y-6 md:space-y-8 md:pt-12">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight sm:tracking-normal lg:tracking-wide">
           Smart Packaging for Garments & Beyond
         </h1>
