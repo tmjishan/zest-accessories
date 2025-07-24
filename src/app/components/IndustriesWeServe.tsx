@@ -8,6 +8,7 @@ import {
   Tag,
 } from "lucide-react";
 import Image from "next/image";
+import ClientsLogo from "./ClientsLogo";
 
 const nicheData = [
   {
@@ -54,6 +55,7 @@ export default function IndustriesWeServe() {
           </div>
         ))}
       </div>
+      <ClientsLogo />
     </div>
   );
 }

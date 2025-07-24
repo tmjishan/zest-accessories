@@ -55,3 +55,13 @@ button:hover {
   background-color: var(--mainColor);
   color: var(--btnhover);
 }
+.single-testimonial-item {
+  padding-left: 85px !important; /* Adjust if needed based on font size and icon size */
+}
+
+/* Ensure Font Awesome icon renders */
+.single-testimonial-item .fa-quote-right {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  /* Adjust positioning based on your icon size if needed */
+}
