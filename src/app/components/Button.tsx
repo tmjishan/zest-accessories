@@ -7,7 +7,7 @@ interface ButtonProps {
   width: string;
 }
 
-export default function ({ btnText, href, height, width }: ButtonProps) {
+export default function Button({ btnText, href, height, width }: ButtonProps) {
   return (
     <Link
       href={href}
