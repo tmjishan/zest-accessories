@@ -12,7 +12,7 @@ export default function Button({ btnText, href, height, width }: ButtonProps) {
     <Link
       href={href}
       className={`${width} ${height}
-        "inline-block bg-[#a0522d] hover:bg-[#8b4513] text-white font-semibold rounded-lg transition duration-300 "`}
+        "inline-block bg-[#a0522d] hover:bg-[#8b4513] text-white font-semibold rounded-lg transition duration-300 tracking-widest"`}
     >
       {btnText}
     </Link>

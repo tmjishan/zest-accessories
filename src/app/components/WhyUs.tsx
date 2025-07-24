@@ -22,7 +22,7 @@ const Data = [
 
 export default function WhyUs() {
   return (
-    <div className="w-full md:max-w-7xl mx-auto px-6 md:px-10 py-8 text-center">
+    <div className="w-full mx-auto text-center">
       <div className="flex flex-col md:flex-row gap-8 md:gap-20 justify-center items-stretch">
         {Data.map((item, index) => (
           <div
@@ -47,12 +47,12 @@ export default function WhyUs() {
           </div>
         ))}
       </div>
-      <div className="py-20">
+      <div className="pt-10 sm:pt-16 md:pt-20 text-center">
         <Button
           btnText="See More Aligns"
           href="/"
-          height="py-[10px]"
-          width="px-[15px]"
+          height="py-3 sm:py-4" // responsive button height
+          width="px-6 sm:px-8" // responsive button width
         />
       </div>
     </div>
